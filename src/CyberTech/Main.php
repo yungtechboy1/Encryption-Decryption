@@ -47,6 +47,7 @@ class Main extends PluginBase implements Listener{
         case "hg":
             if ($args[0] == "join"){
                 //Join Function
+                
             }
             
             return true;
