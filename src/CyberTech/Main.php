@@ -44,8 +44,7 @@ class Main extends PluginBase implements Listener{
     
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
     switch($command->getName()){
-        case "hg":
-            
+        case "encrypt":
             return true;
         default:
             return false;
