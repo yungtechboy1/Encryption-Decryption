@@ -45,9 +45,6 @@ class Main extends PluginBase implements Listener{
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
     switch($command->getName()){
         case "hg":
-            if ($args[0] == "join"){
-                //Join Function
-            }
             
             return true;
         default:
